@@ -73,21 +73,23 @@
     padding: 0px;
 }
 
+body{
+    
+    background-color: rgb(175, 175, 175);
+}
+
 #container{
+
+    width: 1420px;
     margin: 0 auto;
     display: flex;
-
+    position: relative;
 }
 
 #mainContents{
-
     width: 100%;
     background-color: #f7f6f3;
-    overflow-x: inherit;
-    overflow-y: visible;
-
 }
-
 
 .row{
     width: 100%;
@@ -329,6 +331,33 @@ a{
 
 @media(max-width:768px){
 
+
+
+
+*{
+    margin : 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(175, 175, 175);
+}
+
+#container{
+
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+#mainContents{
+
+    width: 100%;
+    background-color: #f7f6f3;   
+}
+
+
 .menu{
     list-style: none;
 
@@ -566,7 +595,7 @@ display: flex;
 
 .up-line{
     position: absolute;
-    top:790px;
+    top:783px;
     left: 54px;
 }
 
@@ -708,9 +737,15 @@ a{
 
 
 
+    .ppppppp{
+    padding-left: 1.2rem;
+    }
+
+
+
+
 }
 
 
    
    
-
